@@ -1,0 +1,217 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.wrap{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    position: relative;
+    font-family: 微軟正黑體
+}
+.header img{
+    width: 1000px;
+}
+h1{
+    position: absolute;
+    right: 380px;
+    top: 70px;
+    color:white;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.areaID{
+    position: absolute;
+    right: 370px;
+    top: 160px;
+    width: 230px;
+    height: 35px;
+    border-radius: 5px;
+}
+.area{
+    background: white;
+    width: 800px;
+    height: 100px;
+    position: absolute;
+    right: 100px;
+    top: 350px;
+}
+.area p{
+    margin-top: 18px;
+    margin-left: 18px;
+}
+
+.btn input{
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    font-size: 17px;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.btn1{
+    background: #8a82cc;
+}
+.btn2{
+    background: #ffa782;
+}
+.btn3{
+    background: #f5d005;
+}
+.btn4{
+    background:#559ac8;
+}
+.content{
+    background: #f7f7f7;
+    width: 1000px;
+    height: 150px;
+    padding-bottom: 50px;
+}
+.content img{
+    padding-top: 100px;
+    width: 800px;
+    padding-left: 100px;
+}
+
+
+h2{
+    margin: auto;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    color: #8a82cc;
+}
+.location{
+    width: 480px;
+    height: 300px;
+    float: left;
+    padding-left: 10px;
+    margin-top: 50px;
+}
+.picture{
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 480px;
+}
+.name{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    color: white;
+    font-size: 20px;
+}
+.district{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    color: white;
+    font-size: 20px;
+}
+.information{
+    position: relative;
+    background: white;
+    height: 100px;
+    font-size: 17px;
+    box-shadow: 1px 2px 2px #D0D0D0;
+}
+.information .time{
+    height: 15px;
+    width: 15px;
+    display: inline;
+    margin-right: 10px;
+}
+.timeC{
+    position: absolute;
+    top: -80px;
+    left: -80px;
+}
+.information .small {
+    font-size: 10px;
+}
+.information .add{
+    height: 15px;
+    width: 15px;
+    display: inline;
+    margin-right: 10px;
+}
+.addC{
+    position: absolute;
+    top: -60px;
+    left: -80px;
+}
+.information .tel{
+    height: 15px;
+    width: 15px;
+    display: inline;
+    margin-right: 10px;
+}
+.telC{
+    position: absolute;
+    top: -40px;
+    left: -80px;
+}
+.information .fee{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: -100px;
+    left: -130px;
+}
+.feeC{
+    position: absolute;
+    top: 70px;
+    left: 400px;
+}
